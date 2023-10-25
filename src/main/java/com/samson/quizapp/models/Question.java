@@ -10,7 +10,7 @@ import jakarta.persistence.Id;
 public class Question {
 	
 	@Id
-	@GeneratedValue(strategy = GenerationType.SEQUENCE)
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Long id;
 	private String category;
 	private String difficultyLevel;
